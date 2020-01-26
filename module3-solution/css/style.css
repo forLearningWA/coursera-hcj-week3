@@ -1,0 +1,57 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+  color: #777;
+}
+
+body {
+  background-color: #eaf7f5;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+div.p-b-15 {
+  padding-bottom: 15px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.head-title {
+  font-size: 1.25em;
+}
+
+div.title {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+}
+
+div.content {
+  padding: 10px;
+}
+
+div.div-container {
+  background-color: #d3e4e3;
+  position: relative;
+  margin: 10px;
+}
+
+li.li-odd {
+  background-color: papayawhip;
+}
+
+li.li-even {
+  background-color: floralwhite;
+}
